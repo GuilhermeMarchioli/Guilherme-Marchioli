@@ -1,0 +1,111 @@
+@charset "UTF-8"
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Header */
+
+header {
+    padding: 10px 40px 20px 0px;
+}
+
+header > div#logo > img:hover{
+ transform: scale(110%);
+}
+
+/* Desktop */
+
+nav {
+    display: none;
+}
+
+nav a {
+    color: #b4b4b4;
+    text-decoration: none;
+    padding: 5px 25px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    transition: all 0.5s;
+    transform: scale(110%);
+    color: #5e2ec4;
+    border-bottom: 5px solid #5e2ec4;
+    border-radius: 5px;
+}
+
+header #contatoButton {
+    display: none;
+    padding: 7px 30px;
+    border: 3px solid #6b3d91;
+    border-radius: 15px;
+    color: #6b3d91;
+    text-decoration: none;
+}
+
+header #contatoButton:hover {
+    background-color: #6b3d91;
+    color: white;
+    transition: all 0.5s;
+
+}
+
+/* Mobile */
+
+menu {
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    transform: translate(-50%);
+
+    width: 220px;
+    text-align: center;
+    padding: 20px;
+    background-color: #2b126193;
+    border-radius: 20px;
+}
+
+span:hover {
+    cursor: pointer;
+}
+
+menu a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    width: 90%;
+    padding: 7px;
+    border-bottom: 3px solid #3a1192;
+}
+
+menu a:hover {
+    background-color: #3a1192;
+
+    border-radius: 20px;
+    transition: all 0.5s;
+}

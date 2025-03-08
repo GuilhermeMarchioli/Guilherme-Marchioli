@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 769px){
+    header {
+        padding: 40px;
+    }
+
+    nav {
+        display: block;
+    }
+
+    a#contatoButton {
+        display: block;
+    }
+
+    menu {
+        display: none;
+    }
+
+    span {
+        display: none;
+    }
+
+}
