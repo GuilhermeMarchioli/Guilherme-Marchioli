@@ -1,7 +1,9 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 769px){
-    header {
+
+    /* Header/Menu */
+    .interface {
         padding: 40px;
     }
 
@@ -17,8 +19,27 @@
         display: none;
     }
 
-    span {
+    header span {
         display: none;
     }
 
+    /* Home Page */
+    section#home {
+        flex-flow: row nowrap;
+    }
+
+    section#home article {
+        width: 60%;
+    }
+    
+    section#home aside {
+        position: relative;
+        animation: flutuar 2s ease-in-out infinite alternate;
+        margin-right: 100px;
+    }
+
+    section#home h1 {
+        text-align: justify;
+        margin: 22px;
+    }
 }
