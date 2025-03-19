@@ -23,6 +23,8 @@ html, body {
     height: 100%;
     width: 100%;
     overflow-x: hidden;
+
+    scroll-behavior: smooth;
 }
 
 body {
@@ -91,6 +93,7 @@ header .contatoButton:hover {
 /* Mobile */
 
 menu {
+    display: none;
     position: absolute;
     left: 50%;
     top: 20px;
@@ -103,7 +106,7 @@ menu {
     border-radius: 20px;
 }
 
-span:hover {
+header span:hover {
     cursor: pointer;
 }
 
@@ -169,4 +172,60 @@ section#home .contatoButton:hover{
     background-color: #261733;
     transition: all 0.5s;
     color: rgb(160, 156, 156);
+}
+
+/* Sobre Page */
+
+
+/* Serviços Page */
+section#servicos {
+    margin: auto;
+    padding: 15px;
+    width: 90%;
+}
+
+section#servicos h1 {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+section#servicos span {
+    color: #6b3d91;
+}
+
+section#servicos article {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 60px;
+
+}
+
+section#servicos aside {
+    margin-top: 35px;
+    color: white;
+    padding: 15px;
+    border-radius: 25px;
+    height: 330px;
+}
+
+section#servicos aside:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.37) ;
+    transition: all 0.5s;
+}
+
+section#servicos svg {
+    color: #6b3d91;
+    height: 70px;
+    width: 70px;
+}
+
+section#servicos h2 {
+    font-size: 1.3em;
+    margin: 15px 0px;
+}
+
+section#servicos p {
+    color: rgb(199, 199, 199);
 }

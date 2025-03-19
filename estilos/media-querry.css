@@ -42,4 +42,21 @@
         text-align: justify;
         margin: 22px;
     }
+
+    /* Sobre Page */
+
+
+    /* Serviços Page */
+    section#servicos {
+        padding-top: 260px;
+    }
+
+    section#servicos article {
+        flex-flow: row wrap;
+    }
+
+    section#servicos aside {
+        width: 300px;
+        height: 350px;
+    }
 }
