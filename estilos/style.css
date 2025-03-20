@@ -197,6 +197,8 @@ section#servicos span {
 section#servicos article {
     display: flex;
     flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
     gap: 60px;
 
 }
