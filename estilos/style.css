@@ -175,7 +175,27 @@ section#home .contatoButton:hover{
 }
 
 /* Sobre Page */
+section#sobre {
+    padding: 15px;
+    padding-top: 100px;
+    width: 90%;
+    margin: auto;
+    color: white;
 
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section#sobre h1 {
+    font-size: 2em;
+}
+
+section#sobre span {
+    color: #6b3d91;
+    display: block;
+}
 
 /* Serviços Page */
 section#servicos {

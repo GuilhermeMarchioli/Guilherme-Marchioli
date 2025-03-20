@@ -44,11 +44,22 @@
     }
 
     /* Sobre Page */
+    section#sobre {
+        padding-top: 40px;
+        margin-left: -10px;
 
+        flex-flow: row nowrap;
+        
+        align-items: center;
+    }
+
+    section#sobre aside {
+        margin-right: 10px;
+    }
 
     /* Serviços Page */
     section#servicos {
-        padding-top: 260px;
+        padding-top: 40px;
     }
 
     section#servicos article {
