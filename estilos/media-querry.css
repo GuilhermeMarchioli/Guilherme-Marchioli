@@ -11,7 +11,7 @@
         display: block;
     }
 
-    a#contatoButton {
+    header .contatoButton {
         display: block;
     }
 
@@ -45,7 +45,7 @@
 
     /* Sobre Page */
     section#sobre {
-        padding-top: 40px;
+        margin: 150px;
         margin-left: -10px;
 
         flex-flow: row nowrap;

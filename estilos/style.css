@@ -197,10 +197,27 @@ section#sobre span {
     display: block;
 }
 
+section#sobre button {
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    border: none;
+    background-color: #3c145e;
+    margin: 0px 5px;
+}
+
+section#sobre button:hover {
+    background-color: #6b3d91;
+    color: white;
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
 /* Serviços Page */
 section#servicos {
     margin: auto;
     padding: 15px;
+    padding-top: 100px;
     width: 90%;
 }
 
