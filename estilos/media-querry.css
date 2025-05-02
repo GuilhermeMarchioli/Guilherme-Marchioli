@@ -79,4 +79,8 @@
         gap: 0px;
     }
 
+    section#projetos aside {
+        margin-right: 0px;
+    }
+
 }

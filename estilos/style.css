@@ -300,7 +300,17 @@ section#projetos article {
 }
 
 section#projetos aside {
+    margin-right: 200px;
     height: 460px;
     width: 360px;
     background-color: #6b3d91;
+    border-radius: 25px;
+
+    background-size: cover;
+    background-position: 100% 0%;
+}
+
+section#projetos aside:hover {
+    background-position: 100% 100%;
+    transition: 8s;
 }
