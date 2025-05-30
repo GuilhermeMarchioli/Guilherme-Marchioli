@@ -343,54 +343,25 @@ section#projetos aside:hover {
 
 
 /* Contato page */
-section#formulario {
+section#contato {
     margin: auto;
     padding: 80px 4%;
-    padding-top: 100px;
+    padding-top: 150px;
     width: 90%;
     color: white;
 } 
 
-form {
-    padding: 10px;
-    padding-right: 50px;
-    max-width: 500px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    flex-flow: column nowrap;
-    gap: 10px;
-}
-
-form input, form textarea {
-    width: 100%;
-    background-color: #242424;
+section#contato h1 {
+    font-size: 2em;
+    margin: 15px;
+    text-align: center;
     color: white;
-    font-size: 0.9em;
-    border: 0;
-    border-radius: 10px;
-    outline: 0;
-    padding: 20px 15px;
 }
 
-form textarea {
-    height: 140px;
+section#contato span {
+    color: #6b3d91;
 }
 
-form textarea::placeholder {
-    font-size: 0.9em;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#botaoEnviar {
-    width: 120px;
-    margin: auto;
-    background-color: #6b3d91;
-}
-
-#botaoEnviar:hover {
-    background-color: #3c1e55;
-    cursor: pointer;
-    box-shadow: 0px 0px 12px #3c1e55;
-    transition: all 1s;
+section#contato p {
+    
 }
