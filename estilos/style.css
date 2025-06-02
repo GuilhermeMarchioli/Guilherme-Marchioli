@@ -389,3 +389,18 @@ section#contato a:hover {
     color: white;
     box-shadow: 0px 0px 12px #3c1e55;
 }
+
+/* Footer */
+footer {
+    margin: auto;
+    padding: 40px 4%;
+    width: 90%;
+    color: white;
+    box-shadow: 6px 0px 12px rgba(68, 68, 68, 0.637);
+}
+
+footer div.line-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
