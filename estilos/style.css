@@ -405,3 +405,36 @@ footer div.line-footer {
     justify-content: space-between;
     align-items: center;
 }
+
+footer button {
+    border: none;
+    background-color: #6b3d91;
+    color: black;
+    padding: 15px;
+    border-radius: 250px;
+    margin: 15px;
+}
+
+footer button:hover {
+    transform: scale(110%);
+    background-color: #8655ad;
+    color: white;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+footer p {
+    color: #6b3d91;
+    margin: 5px;
+    text-indent: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #6b3d91;
+    margin: 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
